@@ -1,0 +1,101 @@
+@media(min-width:1460px) and (max-width:1921px){
+    .services-main-con-1 {
+        grid-template-columns: repeat(2,1000px);
+        justify-content: center;
+    }
+    .services-main-con-2 {
+        grid-template-columns: repeat(2,1000px);
+        justify-content: center;
+    }
+    .skill-section {
+        grid-template-columns: 1000px 1000px;
+    }
+    .services-description p {
+        width: 50%;
+    }
+    .skill-section-2 {
+        justify-content: center;
+        width: 120%;
+    }
+}
+@media(min-width:2049px) and (max-width:2500px){
+    .services-main-con-1 {
+        grid-template-columns: repeat(2,1015px);
+        justify-content: center;
+    }
+    .services-main-con-2 {
+        grid-template-columns: repeat(2,1015px);
+        justify-content: center;
+    }
+    .skill-section {
+        grid-template-columns: repeat(2,1015px);
+    }
+}
+@media(min-width:2732px) and (max-width:3500px){
+    .services-main-con-1 {
+        grid-template-columns: repeat(2,1500px);
+        justify-content: center;
+    }
+    .services-main-con-2 {
+        grid-template-columns: repeat(2,1500px);
+        justify-content: center;
+    }
+    .skill-section {
+        grid-template-columns: 1500px 1500px;
+    }
+}
+
+@media(min-width:3501px) and (max-width:15000px){
+    .services-main-con-1 {
+        grid-template-columns: repeat(2,3000px);
+        justify-content: center;
+        grid-template-rows: 800px;
+        overflow: hidden;
+
+    }
+    .services-main-con-2 {
+        grid-template-columns: repeat(2,3000px);
+        justify-content: center;
+        grid-template-rows: 800px;
+        overflow: hidden;
+
+    }
+   
+    .forXl {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 150px;
+
+
+    }
+    .forxl {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 350px;
+    }
+    .skill-section {
+        grid-template-columns: repeat(2,3000px);
+        grid-template-rows: 800px;
+        overflow: hidden;
+    }
+    .skill-section-2 {
+        justify-content: center;
+    }
+    .message {
+        height: 150px;
+    }
+}
+.message {
+    height: 120px;
+}
+form {
+    margin-top: 0px !important;
+}
+
+
+@media (min-width:1351px) and (max-width:1366px) {
+    .services-main-sec-1 img {
+        width: auto;
+        height: 700px;
+    }
+}
